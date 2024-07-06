@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>HTML signin </title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="main">
+        <h1>Regestration</h1>
+           <form action="">
+              <label for="first">Firstname:</label>
+              <input type="text" id="first" name="first" placeholder="Enter your Username" required>
+              <label for="first">Lastname:</label>
+              <input type="text" id="last" name="last" placeholder="Enter your lastname" required>
+              <label for="first">Fatherame:</label>
+              <input type="text" id="father" name="father" placeholder="Enter your Fathename" required>
+              <label for="first">Motherame:</label>
+              <input type="text" id="mother" name="mother" placeholder="Enter your Mothername" required>
+              <label for="email">Email</label>
+              <input type="text"  id="email" name="email" placeholder="Enter your email" required>
+              <label for="password">Password:</label>
+              <input type="password"id="password" name="password"placeholder="Enter your Password" required/>
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender"required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+              </select>
+              <label for="collage">COLLAGE</label>
+                  <select id="collagename" name="collagename"placeholder="Enter your collagename" required>
+                  <option hidden>Collage NAME</option>
+                  <option>Annamacharya Institute of Technological and Sciences</option>
+                  <option>Jawaharal Nehru Technological University</option>
+                  <option>Srinivasa Ramanujan Institute of Technology</option>
+                  <option>Madanapalle Institute of Technology Sciences</option>
+                  </select>
+                  <div class="input-box">
+                    <label>BRANCH</label>
+                    
+                  </div>
+                  <div class="select-box">
+                      <select>
+                        <option hidden>Branch Name</option>
+                        <option>Computer Science and Engineering</option>
+                        <option>Electronics and Communication Engineering</option>
+                        <option>Electrical and Electronics Engineering</option>
+                        <option>Mechanical Engineering</option>
+                      <option>Civil Engineering</option>
+                      </select>
+                    </div>
+                <div class="input-box address">
+                  <label>Address</label>
+                  <input type="text" placeholder="Enter Addresss" required />
+                  </div>
+              <div class="wrap">
+                  <button type="submit"onclick="solve()">Submit</button>
+              </div>
+            </form>
+      </div>
+</body>
+</html>
